@@ -6,7 +6,6 @@ import sys
 import datetime
 from time import sleep
 
-
 for i in range(10000):
     sleep(random.random())
     sys.stdout.write("{:d}.{:d}.{:d}.{:d} - [{}] \"GET {} {}\" {} {}\n".format(
